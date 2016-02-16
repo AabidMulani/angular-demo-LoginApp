@@ -1,0 +1,17 @@
+<div>
+
+    <input type="text" name="name" ng-model="send.ngName"/>
+    <input type="text" name="age"  ng-model="send.ngAge"/>
+
+    <button ng-click="onSubmitClicked()" value="Submit">Submit</button>
+    <button ng-click="onDeleteClicked()" value="Submit">Delete</button>
+    <button ng-click="onPutClicked()" value="Submit">Put</button>
+    
+    <button ng-click="onAddClicked()" value="Submit">Add This</button>
+    
+    <div ng-repeat="items in receivedData">
+        <span>{{items.id}} </span>
+        <span>{{items.name}} </span>
+    </div>
+    
+</div>

@@ -1,0 +1,98 @@
+body{
+ 
+    font-family: calibri, sans-serif;
+    font-size: 12px;
+    width:100%;
+    margin: auto;
+}
+
+nav{
+    background: #eeeeee;
+    height: 25px;
+}
+
+
+.ulClass li{
+    width: 50px;
+    list-style-type: none;   
+    display: list-item; 
+    padding-bottom: 35px;
+}
+.menuList{ float: left;
+    background: green;
+    padding:5px;
+}
+
+.menuArrow{ border-color:transparent  transparent      transparent green;
+     border-style: solid;
+     border-width: 14px;  
+    float: left;
+}
+
+
+.animate-show {
+    margin-top: -15%;
+    margin-left: 25%;
+    background: red;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+
+.ulClass li:hover{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    font-size:16px;
+}
+
+a{
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+}
+
+table{
+    margin-top:20px;
+    width: 100%;
+}
+
+table thead tr {
+background: #ccc;
+}
+
+table tbody tr {
+background: #ddd;
+}
+
+table tbody tr:nth-child(2n + 1) {
+background: #eee;
+}
+
+table tr td {
+text-align: center;
+}
+
+
+.error {
+color: red;
+}
+
+.homeHeader{
+    text-align: center;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.homeBody{
+    
+}
+
+.detailHeader{
+    padding: 5px;
+    font-size: 16px;
+}

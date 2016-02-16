@@ -1,0 +1,42 @@
+{
+    "instances_found": [
+        {
+            "id": "1",
+            "name": "A"
+        },
+        {
+            "id": "2",
+            "name": "B"
+        },
+        {
+            "id": "3",
+            "name": "C"
+        },
+        {
+            "id": "4",
+            "name": "D"
+        }
+    ],
+    "streams_found": [
+        {
+            "source": "1",
+            "target": "2",
+            "alarms": "50"
+        },
+        {
+            "source": "2",
+            "target": "3",
+            "alarms": "20"
+        },
+        {
+            "source": "3",
+            "target": "4",
+            "alarms": "70"
+        },
+        {
+            "source": "4",
+            "target": "2",
+            "alarms": "36"
+        }
+    ]
+}
